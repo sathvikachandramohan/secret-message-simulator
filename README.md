@@ -2,11 +2,6 @@
 
 A cozy, notebook-themed interactive web application featuring an animated chibi companion that reads, analyzes, and emotionally reacts to user-written messages in real time. 
 
- **[Live Demo Link]
- ()** 
-
----
-
 ## Description
 The "Secret Message Simulator" is an aesthetic frontend project designed with a hand-drawn sketchbook appearance. It completely bypasses the need for external images or audio files by relying on modern native browser APIs. Using pure CSS geometry and an inline SVG displacement filter, it mimics an authentic hand-drawn journal where users can draft a letter, watch it fold itself into a 3D envelope, lock it with a heart sticker, and generate a customized shared gift card.
 
@@ -46,8 +41,12 @@ This project was built to explore the boundaries of CSS illustration, complex UI
 - **Vanilla JavaScript (ES6+):** Programmatic audio synthesis, live sentiment scanning, runtime background element injection, and DOM class state modulation.
 
 ---
+## Live Demo Link
+
+
 
 ## Project Structure
+```text
 secret-message-simulator/
 │
 ├── index.html        # Main app entry, structural layout, SVG filter definitions
