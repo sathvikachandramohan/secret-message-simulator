@@ -1,53 +1,63 @@
-# 💌 Secret Message Simulator
+# 🕹️ Retro Pixel Secret Mailer
 
-A cozy, notebook-themed interactive web application featuring an animated chibi companion that reads, analyzes, and emotionally reacts to user-written messages in real time. 
+A retro, arcade-inspired interactive web application combining classic OS window chrome with a real-time sentiment engine. Users can write secret entries inside an old-school interface, watch their letters fold into a 3D envelope, and unlock custom audio-visual feedback.
 
-## Description
-The "Secret Message Simulator" is an aesthetic frontend project designed with a hand-drawn sketchbook appearance. It completely bypasses the need for external images or audio files by relying on modern native browser APIs. Using pure CSS geometry and an inline SVG displacement filter, it mimics an authentic hand-drawn journal where users can draft a letter, watch it fold itself into a 3D envelope, lock it with a heart sticker, and generate a customized shared gift card.
+**[Live Interactive Demo]
+https://sathvikachandramohan.github.io/secret-message-simulator/
 
 ---
 
-## Overview
-This project was built to explore the boundaries of CSS illustration, complex UI animation states, and programmatic audio generation. Instead of building a sterile, corporate web interface, this application showcases how frontend technologies can be manipulated to create a whimsical, emotionally responsive, and highly tactile user experience (UX) reminiscent of cozy, indie digital stationery.
+## Project Description
+The **Retro Pixel Secret Mailer** is a responsive, single-page web app built with a pure 8-bit aesthetic. Utilizing custom CSS painting architectures and embedded vector shapes, the app recreates classic computer window layouts and vintage arcade consoles entirely out of native code. It functions completely without external graphical dependencies, employing a modular frontend script to track typography flows, toggle SVG expressions, and synthesize retro waveforms on the fly.
+
+---
+
+##  Overview
+This project serves as a comprehensive exploration of nostalgic computing design frameworks implemented using modern web APIs. The application rejects corporate UI layouts in favor of tactile digital stationery, blending structural CSS grid patterns, 3D transform layers, and real-time JavaScript keyphrase listeners to create a whimsical web experience.
 
 ---
 
 ##  Project Objectives
-- **Master UI/UX Micro-interactions:** Build a highly engaging interface where every user action (typing, clicking, sealing) triggers instant physical, visual, and auditory feedback.
-- **Eliminate External Dependencies:** Recreate high-quality web assets (graphics, animations, sound effects) using purely local code structures rather than asset hosting.
-- **Implement Real-Time State Engines:** Synchronize character animations, speech bubble content, and UI data tags dynamically using light sentiment analysis.
+- **Aesthetic Preservation:** Recreate authentic 90s-era window chrome and pixel art environments natively using clean code structures.
+- **Auditory Synthesis Manipulation:** Leverage oscillator pipelines to produce structural retro chiptune sound design from scratch.
+- **Dynamic Structural Toggling:** Synchronize multi-layered inline vector assets seamlessly alongside structural text parsing models.
 
 ---
 
-##  Features
-- **Hand-Drawn Sketchy Filter:** Utilizes an inline SVG `<feTurbulence>` filter to give box borders and structural edges an organic, slightly imperfect "jittery" pen stroke style.
-- **Real-Time Sentiment Mood Engine:** As you type into the typewriter console, JavaScript checks for custom keyphrases to update the **Mood Meter** and transition the chibi mascot across 6 distinct vector states:
-  - ❤️ **Love:** Character blushes (`love`, `cute`, `marry`, `hug`)
-  - 😢 **Sad:** Character cries custom falling teardrops (`miss you`, `sad`, `goodbye`)
-  - 😲 **Shocked:** Character's eyes widen (`wow`, `omg`, `impossible`)
-  - 😡 **Angry:** Character gets cross-eyed eyebrows (`hate`, `annoying`, `stupid`)
-  - 🤔 **Thinking:** Character looks pensive (`think`, `maybe`, `perhaps`)
-  - 😊 **Happy:** The peaceful default writing state.
-- **🎵 Code-Synthesized Audio (Web Audio API):** Mechanical typewriter keystroke clicks and paper rustling fold sound effects are completely synthesized mathematically from oscillator nodes in real time.
-- **✉️ 3D Sealing Automation Sequence:** Clicking the action button hides the console, moves the text into a stationary sheet, folds down a 3D envelope flap using perspective transforms, and pops up a springy heart sticker.
-- **🌸 Decorative Gift Card Generation:** Spawns a dedicated summary card styled with custom digital washi tape textures and stars for the final presentation.
-- **✨ Ambient Environment:** Features a floating background engine that generates and gently animates pastel stickers across the viewport.
+## Implemented Features
+
+###  Visual & Layout Design
+- **Baby-Pink Pixel-Dot Background:** Engineered entirely through CSS utilizing a custom-scaled `radial-gradient` loop to mimic vintage game backdrops.
+- **Retro Window Chrome:** Features an authentic lime-green titlebar system complete with hard-edged 3-way window management pixel action buttons.
+- **Retro Typography:** Standardized layout fonts across all viewports to use the `Press Start 2P` font rendered dynamically via the Google Fonts CDN.
+- **Ambient Environment:** A global CSS keyframe rendering system that updates and floats background 8-bit hearts gracefully behind the application wrapper.
+
+### Animation & Interaction Mechanics
+- **Real-Time Mascot Interface:** A vector-drawn chibi companion constructed via pure inline SVGs featuring layered geometric maps. The mascot changes across 6 distinct emotional profiles in real time based on message text inputs via structural SVG opacity toggling and CSS transitions.
+- **Pixel Speech Bubble:** A CSS-only speech box that displays responsive chat responses utilizing a custom tail triangle border configuration.
+- **3D Envelope Sealing Sequence:** Pressing the action button triggers a complex 3D transformation matrix that lowers the sheet, folds the 3D envelope flap down, and applies a springy lock seal.
+- **Summary Gift Card Layer:** Instantly triggers an active sliding animation to present a cleanly decorated 8-bit gift card summarizing the final entry parameters.
+
+### Chiptune Sound Design Engine (Web Audio API)
+Every action within the application generates distinct, pure mathematical audio waves:
+- **Type Blips:** Retro arcade keystroke click feedback generated during active text box entries.
+- **Seal Fanfare:** An escalating algorithmic chord progression celebrating the message sealing sequence.
+- **Pop Open Effect:** A sharp, high-resonance popping sound paired with high-frequency frequency sweeps for object opening states.
+- **Clear Sweep:** A soothing, linear downward audio sweep signaling console sweeps and page resets.
 
 ---
 
-## Technologies Used
-- **HTML5:** Layout structuring, semantic markup, and embedded SVG filtering matrices.
-- **CSS3:** Custom properties (variables), notebook line linear gradients, keyframe state machines, 3D perspective folding matrix, and responsive media queries.
-- **Vanilla JavaScript (ES6+):** Programmatic audio synthesis, live sentiment scanning, runtime background element injection, and DOM class state modulation.
+##  Technologies Used
+- **HTML5:** Structuring layouts, embedding custom SVG graphic layers, and managing DOM tree components.
+- **CSS3:** Custom properties, custom grid linear/radial background painters, 3D perspective orientation matrices, and device media queries.
+- **Vanilla JavaScript (ES6+):** Hardware AudioContext routing, runtime keyphrase monitoring, conditional component branching, and layout timers.
 
 ---
-## Live Demo Link
-https://sathvikachandramohan.github.io/secret-message-simulator/
 
 ## Project Structure
 ```text
-secret-message-simulator/
+retro-secret-mailer/
 │
-├── index.html        # Main app entry, structural layout, SVG filter definitions
-├── style.css         # Notebook theme, Chibi vector design, keyframes & 3D stages
-└── script.js         # Web Audio API engine, mood dictionary, interactive handlers
+├── index.html        # Viewport structure, SVG character maps, structural containers
+├── style.css         # Pixel-dot environments, retro window chrome layouts, animations
+└── script.js         # Web Audio synthesizer banks, keyword registers, interaction logic
